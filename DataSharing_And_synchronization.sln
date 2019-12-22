@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Critical Section", "Critical Section\Critical Section.csproj", "{F4A936D8-ED21-40AE-9492-917CD4609453}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inter_locked", "Interlocked\Inter_locked.csproj", "{BBE6AC33-BBFD-4B68-AAB6-AD85FC1EFB17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpinLocking And Lock Recursion", "SpinLocking And Lock Recursion\SpinLocking And Lock Recursion.csproj", "{0BC62181-8F7D-4A2C-92A2-76CE270C236D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsingMutex", "UsingMutex\UsingMutex.csproj", "{C4B59D31-45B0-4EBC-A5B2-68C7EDA7E8EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MutexInPlay", "MutexInPlay\MutexInPlay.csproj", "{35BE6A4F-5AF5-48D4-8629-EF512695D656}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReaderWriterLock", "ReaderWriterLock\ReaderWriterLock.csproj", "{784F03FB-B666-4737-8334-50A9E45C71AE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F4A936D8-ED21-40AE-9492-917CD4609453}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4A936D8-ED21-40AE-9492-917CD4609453}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4A936D8-ED21-40AE-9492-917CD4609453}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4A936D8-ED21-40AE-9492-917CD4609453}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBE6AC33-BBFD-4B68-AAB6-AD85FC1EFB17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBE6AC33-BBFD-4B68-AAB6-AD85FC1EFB17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBE6AC33-BBFD-4B68-AAB6-AD85FC1EFB17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBE6AC33-BBFD-4B68-AAB6-AD85FC1EFB17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BC62181-8F7D-4A2C-92A2-76CE270C236D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BC62181-8F7D-4A2C-92A2-76CE270C236D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BC62181-8F7D-4A2C-92A2-76CE270C236D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BC62181-8F7D-4A2C-92A2-76CE270C236D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4B59D31-45B0-4EBC-A5B2-68C7EDA7E8EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4B59D31-45B0-4EBC-A5B2-68C7EDA7E8EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4B59D31-45B0-4EBC-A5B2-68C7EDA7E8EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4B59D31-45B0-4EBC-A5B2-68C7EDA7E8EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35BE6A4F-5AF5-48D4-8629-EF512695D656}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35BE6A4F-5AF5-48D4-8629-EF512695D656}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35BE6A4F-5AF5-48D4-8629-EF512695D656}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35BE6A4F-5AF5-48D4-8629-EF512695D656}.Release|Any CPU.Build.0 = Release|Any CPU
+		{784F03FB-B666-4737-8334-50A9E45C71AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{784F03FB-B666-4737-8334-50A9E45C71AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{784F03FB-B666-4737-8334-50A9E45C71AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{784F03FB-B666-4737-8334-50A9E45C71AE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {98C80FCE-5221-471B-8DE3-AC23C6315170}
+	EndGlobalSection
+EndGlobal
